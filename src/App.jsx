@@ -4,8 +4,11 @@ import Navbar from './Navbar';
 import Home from './Home';
 
 // Components for pages
-const About = () => <h1>About Page</h1>;
-const Contact = () => <h1>Contact Page</h1>;
+const Events = () => <h1>Events Page</h1>;
+const Flashback = () => <h1>Flashback Page</h1>;
+const Achievements = () => <h1>Achievements Page</h1>;
+const Team = () => <h1>Team Page</h1>;
+const ContactUs = () => <h1>Contact Us Page</h1>;
 
 function App() {
     return (
@@ -14,8 +17,11 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/events" element={<Events />} />
+                    <Route path="/flashback" element={<Flashback />} />
+                    <Route path="/achievements" element={<Achievements />} />
+                    <Route path="/team" element={<Team />} />
+                    <Route path="/contact-us" element={<ContactUs />} />
                     <Route path="*" element={<h1 className='text-center mt-5'>404: Page Not Found</h1>} />
                 </Routes>
             </Router>
