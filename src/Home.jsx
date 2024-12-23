@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (
         <div className='container'>
-            <p className='text-center'>Welcome to Google Developer Groups On Campus School of Data Science and Forecasting</p>
+            <h1 className='text-center mt-5'>Welcome to Google Developer Groups On Campus School of Data Science and Forecasting</h1>
         </div>
     );
 }

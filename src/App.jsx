@@ -4,11 +4,11 @@ import Navbar from './Navbar';
 import Home from './Home';
 
 // Components for pages
-const Events = () => <h1>Events Page</h1>;
-const Flashback = () => <h1>Flashback Page</h1>;
-const Achievements = () => <h1>Achievements Page</h1>;
-const Team = () => <h1>Team Page</h1>;
-const ContactUs = () => <h1>Contact Us Page</h1>;
+const Events = () => <h1 className='text-center mt-5'>Events Page</h1>;
+const Flashback = () => <h1 className='text-center mt-5'>Flashback Page</h1>;
+const Achievements = () => <h1 className='text-center mt-5'>Achievements Page</h1>;
+const Team = () => <h1 className='text-center mt-5'>Team Page</h1>;
+const ContactUs = () => <h1 className='text-center mt-5'>Contact Us Page</h1>;
 
 function App() {
     return (
