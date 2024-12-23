@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Navbar';
 import Home from './Home';
+import Footer from './Footer';
 
 // Components for pages
 const Events = () => <h1 className='text-center mt-5'>Events Page</h1>;
@@ -25,6 +26,7 @@ function App() {
                     <Route path="*" element={<h1 className='text-center mt-5'>404: Page Not Found</h1>} />
                 </Routes>
             </Router>
+            <Footer />
         </div>
     );
 }
