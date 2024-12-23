@@ -3,17 +3,28 @@ import banner from './assets/banner.png'
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg bg-body-secondary">
-            <div class="container">
-                <div class=" d-flex justify-content-start">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container d-flex justify-content-between">
+                {/* The GDG OC SDSF banner will be displayed on screens larger than 768px */}
+                <div class="d-none d-md-block justify-content-start">
                     <a class="navbar-brand" href="/">
-                        <img src={banner} width="350" class="d-inline-block align-top" alt="GDG OC SDSF Logo" />
+                        <img src={banner} alt="Bootstrap" width="350" />
                     </a>
                 </div>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav gap-3">
+                {/* The GDG OC SDSF banner will be displayed on screens smaller than 768px */}
+                <div class="d-block d-md-none">
+                    <a class="navbar-brand" href="/">
+                        <img src={banner} alt="Bootstrap" width="220" />
+                    </a>
+                </div>
+                {/* Toggle button will be displayed on screens smaller than 768px */}
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/events">Events</a>
