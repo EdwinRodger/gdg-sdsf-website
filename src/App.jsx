@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react"
 
 import Navbar from './Navbar';
 import Home from './Home';
@@ -14,6 +15,7 @@ const ContactUs = () => <h1 className='text-center mt-5'>Contact Us Page</h1>;
 function App() {
     return (
         <div>
+            <Analytics />
             <Navbar />
             <Router>
                 <Routes>
