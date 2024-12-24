@@ -1,7 +1,7 @@
 import React from 'react';
-import hero from './assets/hero.png';
-import red from './assets/red.png';
-import blue from './assets/blue.png';
+import hero from '../assets/hero.png';
+import red from '../assets/red.png';
+import blue from '../assets/blue.png';
 
 const Home = () => {
     return (
