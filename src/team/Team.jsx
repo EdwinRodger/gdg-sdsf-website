@@ -18,9 +18,9 @@ const Team = () => {
                                     <h5 className="card-title">{member["name"]}</h5>
                                     <p className="card-text">{member["role"]}</p>
                                     <div className="d-flex justify-content-center gap-3">
-                                        {member["github"] === "" ? null : <a href={member["github"]} className="text-body-secondary"><i class="bi bi-github fs-4"></i></a>}
-                                        {member["linkedin"] === "" ? null : <a href={member["linkedin"]} className="text-body-secondary"><i class="bi bi-linkedin fs-4"></i></a>}
-                                        {member["instagram"] === "" ? null : <a href={member["instagram"]} className="text-body-secondary"><i class="bi bi-instagram fs-4"></i></a>}
+                                        {member["github"] === "" ? null : <a href={member["github"]} className="text-body-secondary"><i className="bi bi-github fs-4"></i></a>}
+                                        {member["linkedin"] === "" ? null : <a href={member["linkedin"]} className="text-body-secondary"><i className="bi bi-linkedin fs-4"></i></a>}
+                                        {member["instagram"] === "" ? null : <a href={member["instagram"]} className="text-body-secondary"><i className="bi bi-instagram fs-4"></i></a>}
                                     </div>
                                 </div>
                             </div>
@@ -37,9 +37,9 @@ const Team = () => {
                                     <h5 className="card-title">{member["name"]}</h5>
                                     <p className="card-text">{member["role"]}</p>
                                     <div className="d-flex justify-content-center gap-3">
-                                        {member["github"] === "" ? null : <a href={member["github"]} className="text-body-secondary"><i class="bi bi-github fs-4"></i></a>}
-                                        {member["linkedin"] === "" ? null : <a href={member["linkedin"]} className="text-body-secondary"><i class="bi bi-linkedin fs-4"></i></a>}
-                                        {member["instagram"] === "" ? null : <a href={member["instagram"]} className="text-body-secondary"><i class="bi bi-instagram fs-4"></i></a>}
+                                        {member["github"] === "" ? null : <a href={member["github"]} className="text-body-secondary"><i className="bi bi-github fs-4"></i></a>}
+                                        {member["linkedin"] === "" ? null : <a href={member["linkedin"]} className="text-body-secondary"><i className="bi bi-linkedin fs-4"></i></a>}
+                                        {member["instagram"] === "" ? null : <a href={member["instagram"]} className="text-body-secondary"><i className="bi bi-instagram fs-4"></i></a>}
                                     </div>
                                 </div>
                             </div>
@@ -56,9 +56,9 @@ const Team = () => {
                                     <h5 className="card-title">{member["name"]}</h5>
                                     <p className="card-text">{member["role"]}</p>
                                     <div className="d-flex justify-content-center gap-3">
-                                        {member["github"] === "" ? null : <a href={member["github"]} className="text-body-secondary"><i class="bi bi-github fs-4"></i></a>}
-                                        {member["linkedin"] === "" ? null : <a href={member["linkedin"]} className="text-body-secondary"><i class="bi bi-linkedin fs-4"></i></a>}
-                                        {member["instagram"] === "" ? null : <a href={member["instagram"]} className="text-body-secondary"><i class="bi bi-instagram fs-4"></i></a>}
+                                        {member["github"] === "" ? null : <a href={member["github"]} className="text-body-secondary"><i className="bi bi-github fs-4"></i></a>}
+                                        {member["linkedin"] === "" ? null : <a href={member["linkedin"]} className="text-body-secondary"><i className="bi bi-linkedin fs-4"></i></a>}
+                                        {member["instagram"] === "" ? null : <a href={member["instagram"]} className="text-body-secondary"><i className="bi bi-instagram fs-4"></i></a>}
                                     </div>
                                 </div>
                             </div>
