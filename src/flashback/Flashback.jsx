@@ -1,5 +1,4 @@
 import React from 'react'
-import gcsj24 from '../assets/gcsj24.mp4'
 
 
 const Flashback = () => {
