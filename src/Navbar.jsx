@@ -36,7 +36,7 @@ const Navbar = () => {
                             <a className="nav-link" href="/team">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact-us">Contact Us</a>
+                            <a className="nav-link" href="mailto:gdsc.sdsf@gmail.com" target='_blank'>Contact Us</a>
                         </li>
                     </ul>
                 </div>
