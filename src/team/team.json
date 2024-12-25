@@ -3,7 +3,7 @@
     {
         "name": "Vaidik Lotan",
         "role": "GDG Organizer",
-        "image": "src/assets/team-photos/vaidik_lotan.webp",
+        "image": "/team-photos/vaidik_lotan.webp",
         "github": "https://github.com/EdwinRodger",
         "linkedin": "https://www.linkedin.com/in/vaidik-lotan/",
         "instagram": "https://www.instagram.com/vaidik_ftw/"
@@ -11,7 +11,7 @@
     {
         "name": "Trishansh Sahane",
         "role": "AI & ML Lead",
-        "image": "src/assets/team-photos/trishansh_sahane.webp",
+        "image": "/team-photos/trishansh_sahane.webp",
         "github": "https://github.com/trish-2610",
         "linkedin": "https://www.linkedin.com/in/trishansh-sahane2610/",
         "instagram": "https://www.instagram.com/_trishhh_26s_/"
@@ -19,7 +19,7 @@
     {
         "name": "Shimul Suplekar",
         "role": "PR & Marketing Lead",
-        "image": "src/assets/team-photos/shimul_suplekar.webp",
+        "image": "/team-photos/shimul_suplekar.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/shimul-suplekar-227167296/",
         "instagram": "https://www.instagram.com/__.shimul.__/"
@@ -27,7 +27,7 @@
     {
         "name": "Dev Pathak",
         "role": "Web Dev Lead",
-        "image": "src/assets/team-photos/dev_pathak.webp",
+        "image": "/team-photos/dev_pathak.webp",
         "github": "https://github.com/HEYDEV001",
         "linkedin": "https://www.linkedin.com/in/dev-pathak-17b067296/",
         "instagram": "https://www.instagram.com/dev.p.18/"
@@ -35,7 +35,7 @@
     {
         "name": "Vedansh Mehta",
         "role": "Editing & Production Lead",
-        "image": "src/assets/team-photos/vedansh_mehta.webp",
+        "image": "/team-photos/vedansh_mehta.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/vedanshmehta098/",
         "instagram": "https://www.instagram.com/vedansh.m_/"
@@ -43,7 +43,7 @@
     {
         "name": "Ravi shankar Kumar",
         "role": "Event Planning Lead",
-        "image": "src/assets/team-photos/ravi_shankar_kumar.webp",
+        "image": "/team-photos/ravi_shankar_kumar.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/ravi-shankar-kumar-732282259/",
         "instagram": ""
@@ -51,7 +51,7 @@
     {
         "name": "Lakshya Porwal",
         "role": "Cloud Lead",
-        "image": "src/assets/team-photos/lakshya_porwal.webp",
+        "image": "/team-photos/lakshya_porwal.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/lakshya-porwal-sdsf-davv/",
         "instagram": "https://www.instagram.com/_la.k.s.h.ya/"
@@ -59,7 +59,7 @@
     {
         "name": "Alefiya Rajgarh",
         "role": "Android Lead",
-        "image": "src/assets/team-photos/alefiya_rajgarh.webp",
+        "image": "/team-photos/alefiya_rajgarh.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/alefiya-rajgarh-72b5ab28b/",
         "instagram": "https://www.instagram.com/alefiyaraj__/"
@@ -67,7 +67,7 @@
     {
         "name": "Aditi Bande",
         "role": "Graphic Design Lead",
-        "image": "src/assets/team-photos/aditi_bande.webp",
+        "image": "/team-photos/aditi_bande.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/aditibande/",
         "instagram": "https://www.instagram.com/aditi.bande/"
@@ -75,7 +75,7 @@
     {
         "name": "Mansha Bajpai",
         "role": "Content Strategy Lead",
-        "image": "src/assets/team-photos/mansha_bajpai.webp",
+        "image": "/team-photos/mansha_bajpai.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/mansha-bajpai-6466ab288/",
         "instagram": "https://www.instagram.com/mansha.bajpai1505/"
@@ -85,7 +85,7 @@
     {
         "name": "Nivesh Gaikwad",
         "role": "GDSC Lead",
-        "image": "src/assets/team-photos/nivesh_gaikwad.webp",
+        "image": "/team-photos/nivesh_gaikwad.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/nivesh-gaikwad-946175230/",
         "instagram": "https://www.instagram.com/gaikwad_nivesh1/"
@@ -93,7 +93,7 @@
     {
         "name": "Vaidik Lotan",
         "role": "Android Lead",
-        "image": "src/assets/team-photos/vaidik_lotan.webp",
+        "image": "/team-photos/vaidik_lotan.webp",
         "github": "https://github.com/EdwinRodger",
         "linkedin": "https://www.linkedin.com/in/vaidik-lotan/",
         "instagram": "https://www.instagram.com/vaidik_ftw/"
@@ -103,7 +103,7 @@
     {
         "name": "Vinayak Gavariya",
         "role": "GDSC SDSF Founder & Lead",
-        "image": "src/assets/team-photos/vinayak_gavariya.webp",
+        "image": "/team-photos/vinayak_gavariya.webp",
         "github": "https://github.com/vinayakgavariya",
         "linkedin": "https://www.linkedin.com/in/vinayakgavariya/",
         "instagram": "https://www.instagram.com/vinayakgavariya/"
@@ -111,7 +111,7 @@
     {
         "name": "Nivesh Gaikwad",
         "role": "Management Lead",
-        "image": "src/assets/team-photos/nivesh_gaikwad.webp",
+        "image": "/team-photos/nivesh_gaikwad.webp",
         "github": "",
         "linkedin": "https://www.linkedin.com/in/nivesh-gaikwad-946175230/",
         "instagram": "https://www.instagram.com/gaikwad_nivesh1/"
