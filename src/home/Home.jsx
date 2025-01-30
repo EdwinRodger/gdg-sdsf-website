@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <div className="container col-xxl-8">
-                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div className="row flex-lg-row-reverse align-items-center g-5 py-5" style={{ minHeight: "100vh" }}>
                     <div className="col-10 col-sm-8 col-lg-6">
                         <img src={hero} className="d-block mx-lg-auto img-fluid" alt="Hero" height="488" width="488" loading="lazy" />
                     </div>
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
             <hr className="container" />
             <div className="container col-xxl-8">
-                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div className="row flex-lg-row-reverse align-items-center g-5 py-5" style={{ minHeight: "100vh" }}>
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">What we do!</h1>
                         <p className="lead">Google Developer Groups DAVV is a technical club by the students of School of Data Science and Forecasting, DAVV. A club that lets students explore the latest advancements in computer technology by creating a community of "Tech Minded" students. We also provide opportunities to students to grow and learn about a range of technical topics and gain new skills.</p>
@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             <hr className="container" />
             <div className="container col-xxl-8">
-                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div className="row flex-lg-row-reverse align-items-center g-5 py-5" style={{ minHeight: "100vh" }}>
                     <div className="col-10 col-sm-8 col-lg-6">
                         <img src={red} className="d-block mx-lg-auto img-fluid" alt="Hero" height="488" width="488" loading="lazy" />
                     </div>
