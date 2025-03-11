@@ -11,6 +11,21 @@ import Flashback from './flashback/Flashback';
 import Team from './team/Team';
 import ContactUs from './contact-us/ContactUs';
 
+// Scroll to top component
+const ScrollToTop = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'instant'
+        });
+    }, [pathname]);
+
+    return null;
+};
+
 // Page transition component
 const PageTransition = ({ children }) => {
     const location = useLocation();
@@ -57,6 +72,7 @@ const AppContent = () => {
             display: 'flex',
             flexDirection: 'column'
         }}>
+            <ScrollToTop />
             <Navbar />
             <main style={{ flex: 1, position: 'relative' }}>
                 <Routes location={location}>
